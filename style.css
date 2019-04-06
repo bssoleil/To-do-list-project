@@ -3,7 +3,51 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* style the input */
+input {
+  margin: 0;
+  padding: 10;
+  width: 75%;
+  border: none;
+  border-radius: 0;
+  float: left;
+  font-size: 16px;
+  
+}
+
 input::placeholder {
   color: blue;
   font-style: italic;
 }
+
+
+
+* {
+  box-sizing: border-box;
+} 
+/* Remove margin and padding items */
+ul {
+  margin: 0;
+  padding: 0;
+} 
+ 
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* style the list items */
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
