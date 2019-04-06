@@ -2,3 +2,8 @@ h1 {
   color: midnightblue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+input::placeholder {
+  color: blue;
+  font-style: italic;
+}
