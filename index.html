@@ -13,10 +13,11 @@
     <header>
         <div id="DIV" class="header">   
 
- <h1>Liste des courses</h1>
- 
- <input type="text" id="input" placeholder="Ajouter un élément">
- <button onclick="newElement()" class="addBtn">Ajouter</button>
+            <h1>Liste des courses</h1>
+            <form onsubmit="newElement(); return false">
+            <input type="text" id="input" placeholder="Ajouter un élément">
+            <button class="addBtn" type="submit">Ajouter</button>
+            </form> 
         </div>
     </header>
 
