@@ -3,7 +3,9 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 /* style the input */
+
 input {
   margin: 0;
   padding: 10px;
@@ -11,8 +13,7 @@ input {
   border: none;
   border-radius: 0;
   float: left;
-  font-size: 16px;
-  
+  font-size: 16px;  
 }
 
 input::placeholder {
@@ -21,11 +22,12 @@ input::placeholder {
 }
 
 
-
 * {
   box-sizing: border-box;
 } 
+
 /* Remove margin and padding items */
+
 ul {
   margin: 0;
   padding: 0;
@@ -45,17 +47,15 @@ ul li:hover {
   background: #ddd;
 }
 
-
-
 /* Style the header */
+
 .header {
-  background-color: turquoise;
+  background-color: lightsteelblue;
   padding: 30px 40px;
   color: white;
   text-align: center;
 }
 
-/* Clear floats after the header */
 .header:after {
   content: "";
   display: table;
@@ -80,7 +80,6 @@ ul li:hover {
 .addBtn:hover {
   background-color: #bbb;
 }
-
 
 
 /* style the list items */
