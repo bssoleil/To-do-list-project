@@ -8,7 +8,6 @@ input {
   margin: 0;
   padding: 10px;
   width: 75%;
-  height: 35px;
   border: none;
   border-radius: 0;
   float: left;
@@ -46,38 +45,7 @@ ul li:hover {
   background: #ddd;
 }
 
-/*ul li.checked {
-  background: #888;
-  color: #fff;
-  text-decoration: line-through;
-}
 
-ul li.checked::before {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  border-color: #fff;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
-}
-
-
-/* Style the close button */
-/*.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
-}
-
-.close:hover {
-  background-color: #f44336;
-  color: white;
-}*/
 
 /* Style the header */
 .header {
@@ -88,11 +56,31 @@ ul li.checked::before {
 }
 
 /* Clear floats after the header */
-/*.header:after {
+.header:after {
   content: "";
   display: table;
   clear: both;
-}*/
+}
+
+/* Style the "Add" button */
+
+.addBtn {
+  padding: 10px;
+  width: 20%;
+  background: #d9d9d9;
+  color: #555;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
 
 
 /* style the list items */
